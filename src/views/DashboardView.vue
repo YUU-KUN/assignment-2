@@ -110,28 +110,6 @@
                             </div>
 
                         </div>
-                        <!-- <div v-for="(collection, index) in collectionStore.collections" :key="index"
-                            class="flex items-center justify-start gap-2 mb-10">
-                            <div
-                                class="flex items-center justify-start gap-2 p-2 rounded-xl bg-secondary border border-gray">
-                                <PhFlag :size="20" weight="fill" class="text-red-500" />
-                            </div>
-                            <div
-                                class="flex items-center justify-start gap-2 p-2 rounded-xl bg-secondary border border-gray text-sm capitalize">
-                                <div class="w-4 h-4  bg-tertiary rounded-full"></div>
-                                {{ collection.name }}
-                            </div>
-                            Pake buat tasks
-                            <input type="checkbox" class="w-4 h-4 bg-tertiary rounded mt-0.5" />
-                            <div class="flex flex-col items-start justify-start">
-                                <span class="text-sm  font-light text-gray-600">Set as completed</span>
-                                <span class="text-xs font-light text-gray-400">Today 12:00</span>
-                            </div>
-
-                        </div> -->
-                        <!-- <textarea class="w-full bg-gray-200 rounded-2xl py-2 px-4 mt-4" rows="4"
-                            placeholder="Task Description"></textarea> -->
-
                         <div class="flex items-center justify-start mt-4 gap-3">
                             <button @click="addTask" class="py-4 px-8 rounded-xl text-sm font-semibold"
                                 :class="taskName === '' ? 'bg-gray cursor-not-allowed' : 'bg-tertiary cursor-pointer'"
