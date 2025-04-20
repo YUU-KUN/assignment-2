@@ -1,4 +1,4 @@
-# 📝 Todo App - Assignment 2
+# 📝 Todo App - Dashtomer Assignment 2
 
 A simple and intuitive Todo App built as part of Assignment 2, enhanced with additional features like a dashboard and collection-based task grouping.
 
