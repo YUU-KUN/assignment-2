@@ -1,35 +1,36 @@
-# assignment-2
+# 📝 Todo App - Assignment 2
 
-This template should help get you started developing with Vue 3 in Vite.
+A simple and intuitive Todo App built as part of Assignment 2, enhanced with additional features like a dashboard and collection-based task grouping.
 
-## Recommended IDE Setup
+## 🚀 Features
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+### ✅ Core Features
 
-## Customize configuration
+- Add, edit, and delete todo items
+- Mark todos as completed
+- Responsive UI with smooth user experience
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+### 🎯 Additional Features
 
-## Project Setup
+- **Dashboard View**
 
-```sh
+  - Greeting based on time of day (e.g., “Good morning!”)
+  - Overview of today’s todos
+  - Daily progress bar to track completion
+
+- **Collections**
+  - Group todos by category (e.g., Work, Personal, Shopping)
+  - Easily filter todos by collection
+
+## 🧰 Tech Stack
+
+- **Frontend**: Vue 3 (Composition API)
+- **State Management**: Pinia
+- **Styling**: Tailwind CSS v4
+
+## 📦 Project Setup
+
+```bash
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
 ```
